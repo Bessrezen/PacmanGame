@@ -24,21 +24,18 @@ namespace GamePackman
 
         private void button1_Click(object sender, EventArgs e)
         {
+            Game game = new Game();
+            game.Show();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        { 
             Form2 records = new Form2();
             records.Show();
         }
 
-        private void button2_Click(object sender, EventArgs e)
-        {
-            
-            Game game = new Game();
-            game.Show();
-        }
-
         private void button3_Click(object sender, EventArgs e)
         {
-            Game game = new Game();
-            game.Show();
         }
     }
 }
