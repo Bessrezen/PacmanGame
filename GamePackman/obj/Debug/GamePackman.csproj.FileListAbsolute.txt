@@ -10,3 +10,15 @@ D:\Универ\BestOfTheBestProject\GamePackman\GamePackman\obj\Debug\GamePackm
 D:\Универ\BestOfTheBestProject\GamePackman\GamePackman\obj\Debug\GamePackman.Form2.resources
 D:\Универ\BestOfTheBestProject\GamePackman\GamePackman\obj\Debug\GamePackman.Game.resources
 D:\Универ\BestOfTheBestProject\GamePackman\GamePackman\obj\Debug\GamePackman.csprojResolveAssemblyReference.cache
+D:\Универ\Git\PacmanGame\GamePackman\bin\Debug\GamePackman.exe.config
+D:\Универ\Git\PacmanGame\GamePackman\bin\Debug\GamePackman.exe
+D:\Универ\Git\PacmanGame\GamePackman\bin\Debug\GamePackman.pdb
+D:\Универ\Git\PacmanGame\GamePackman\obj\Debug\GamePackman.csprojResolveAssemblyReference.cache
+D:\Универ\Git\PacmanGame\GamePackman\obj\Debug\GamePackman.Pacman.resources
+D:\Универ\Git\PacmanGame\GamePackman\obj\Debug\GamePackman.Form2.resources
+D:\Универ\Git\PacmanGame\GamePackman\obj\Debug\GamePackman.Game.resources
+D:\Универ\Git\PacmanGame\GamePackman\obj\Debug\GamePackman.Properties.Resources.resources
+D:\Универ\Git\PacmanGame\GamePackman\obj\Debug\GamePackman.csproj.GenerateResource.Cache
+D:\Универ\Git\PacmanGame\GamePackman\obj\Debug\GamePackman.csproj.CoreCompileInputs.cache
+D:\Универ\Git\PacmanGame\GamePackman\obj\Debug\GamePackman.exe
+D:\Универ\Git\PacmanGame\GamePackman\obj\Debug\GamePackman.pdb
