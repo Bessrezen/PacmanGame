@@ -1,0 +1,12 @@
+D:\Универ\BestOfTheBestProject\GamePackman\GamePackman\bin\Debug\GamePackman.exe.config
+D:\Универ\BestOfTheBestProject\GamePackman\GamePackman\bin\Debug\GamePackman.exe
+D:\Универ\BestOfTheBestProject\GamePackman\GamePackman\bin\Debug\GamePackman.pdb
+D:\Универ\BestOfTheBestProject\GamePackman\GamePackman\obj\Debug\GamePackman.Properties.Resources.resources
+D:\Универ\BestOfTheBestProject\GamePackman\GamePackman\obj\Debug\GamePackman.csproj.GenerateResource.Cache
+D:\Универ\BestOfTheBestProject\GamePackman\GamePackman\obj\Debug\GamePackman.csproj.CoreCompileInputs.cache
+D:\Универ\BestOfTheBestProject\GamePackman\GamePackman\obj\Debug\GamePackman.exe
+D:\Универ\BestOfTheBestProject\GamePackman\GamePackman\obj\Debug\GamePackman.pdb
+D:\Универ\BestOfTheBestProject\GamePackman\GamePackman\obj\Debug\GamePackman.Pacman.resources
+D:\Универ\BestOfTheBestProject\GamePackman\GamePackman\obj\Debug\GamePackman.Form2.resources
+D:\Универ\BestOfTheBestProject\GamePackman\GamePackman\obj\Debug\GamePackman.Game.resources
+D:\Универ\BestOfTheBestProject\GamePackman\GamePackman\obj\Debug\GamePackman.csprojResolveAssemblyReference.cache
