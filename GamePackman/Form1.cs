@@ -15,8 +15,14 @@ namespace GamePackman
         public Pacman()
         {
             InitializeComponent();
+            SetupGame(1);
         }
 
+        public void SetupGame(int Level)
+        {
+            // Create Pacman
+            PacmanPers.CreatePacmanImage(this, PacmanStartCoordinates.Item1, PacmanStartCoordinates.Item2);
+        }
         private void Form1_Load(object sender, EventArgs e)
         {
             

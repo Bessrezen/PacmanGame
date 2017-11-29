@@ -12,6 +12,8 @@ namespace GamePackman
 {
     public partial class Game : Form
     {
+        public static GameBoard gameBoard = new GameBoard(); 
+
         public Game()
         {
             InitializeComponent();
