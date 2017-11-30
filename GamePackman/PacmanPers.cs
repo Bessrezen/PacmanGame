@@ -10,16 +10,16 @@ using System.Windows.Forms;
 
 namespace GamePackman
 {
-    class PacmanPers
+    public class PacmanPers
     {
-        int currentDirection = 0;
-        int nextDirection = 0;
-        int xStart = 0;
-        int yStart = 0;
-        int coordinateX = 0;
-        int coordinateY = 0;
-        public PictureBox PacmanImage = new PictureBox();
-        public ImageList PacmanImages = new ImageList();
+        public int currentDirection = 0;
+        public int nextDirection = 0;
+        private int xStart = 0;
+        private int yStart = 0;
+        public int coordinateX = 0;
+        public int coordinateY = 0;
+        private PictureBox PacmanImage = new PictureBox();
+        private ImageList PacmanImages = new ImageList();
         public int ImageOn = 0;
         public Timer timer = new Timer();
 
@@ -29,7 +29,14 @@ namespace GamePackman
             timer.Enabled = true;
             timer.Tick += new EventHandler(timer_Tick);
             PacmanImages.Images.Add(Properties.Resources.Pacman_1_0);
-            
+            PacmanImages.Images.Add(Properties.Resources.Pacman_1_1);
+            PacmanImages.Images.Add(Properties.Resources.Pacman_1_2);
+            PacmanImages.Images.Add(Properties.Resources.Pacman_1_3);
+            PacmanImages.Images.Add(Properties.Resources.Pacman_2_0);
+            PacmanImages.Images.Add(Properties.Resources.Pacman_2_1);
+            PacmanImages.Images.Add(Properties.Resources.Pacman_2_2);
+            PacmanImages.Images.Add(Properties.Resources.Pacman_2_3);
+
             PacmanImages.ImageSize = new Size(27, 28);
         }
 
