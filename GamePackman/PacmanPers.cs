@@ -70,8 +70,31 @@ namespace GamePackman
 
         public void MovePacman(int direction)
         {
-            //Pacman move
-            bool canMove = CheckDirection(nextDirection);
+            // Move Pacman
+            bool CanMove = CheckDirection(nextDirection);
+            if (!CanMove)
+            {
+                CanMove = CheckDirection(currentDirection);
+                direction = currentDirection;
+            }
+            else { direction = nextDirection; }
+
+            if (CanMove) { currentDirection = direction; }
+
+            if (CanMove)
+            {
+                switch (direction)
+                {
+                    case 1: PacmanImage.Top -= 16; coordinateY--; break;
+                    case 2: PacmanImage.Left += 16; coordinateX++; break;
+                    case 3: PacmanImage.Top += 16; coordinateY++; break;
+                    case 4: PacmanImage.Left -= 16; coordinateX--; break;
+                }
+                currentDirection = direction;
+                //UpdatePacmanImage();
+               // CheckPacmanPosition();
+                //Game.ghost.CheckForPacman();
+            }
 
         }
 

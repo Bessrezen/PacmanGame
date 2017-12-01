@@ -18,9 +18,13 @@ namespace GamePackman
         public void CreateBoardImage(Game formInstance, int Level)
         {
             //Create Game Board Image
-            BoardImage.Name = "Board 1";
+            BoardImage.Name = "BoardImage";
             BoardImage.SizeMode = PictureBoxSizeMode.AutoSize;
             BoardImage.Location = new Point(0, 50);
+            switch (Level)
+            {
+                case 1: BoardImage.Image = Properties.Resources.Board_1; break;
+            }
             formInstance.Controls.Add(BoardImage);
         }
 

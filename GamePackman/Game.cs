@@ -27,12 +27,11 @@ namespace GamePackman
             gameBoard.CreateBoardImage(this, Level);
 
             //Create board Matrix
-            Tuple<int, int> PacmanStartCoordinates = gameBoard.InitializeBoardMatrix(Level); 
+            Tuple<int, int> PacmanStartCoordinates = gameBoard.InitializeBoardMatrix(Level);
 
             // Create Pacman
             pacman.CreatePacmanImage(this, PacmanStartCoordinates.Item1, PacmanStartCoordinates.Item2);
         }
-
         protected override void OnKeyDown(KeyEventArgs e)
         {
             base.OnKeyDown(e);
