@@ -132,6 +132,7 @@
     <None Include="Resources\Pacman 1 0.png" />
     <None Include="Resources\Board 1.bmp" />
     <None Include="Resources\Apple1.png" />
+    <None Include="Resources\Apple2.png" />
     <Content Include="Resources\Board1.bmp" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

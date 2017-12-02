@@ -44,6 +44,7 @@
             this.Name = "Game";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Pacman";
+            this.Load += new System.EventHandler(this.Game_Load);
             this.ResumeLayout(false);
 
         }

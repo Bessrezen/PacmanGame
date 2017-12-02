@@ -13,7 +13,9 @@ namespace GamePackman
     public partial class Game : Form
     {
         public static GameBoard gameBoard = new GameBoard();
+        public static Apple apples = new Apple();
         public static PacmanPers pacman = new PacmanPers();
+        
 
         public Game()
         {
@@ -29,8 +31,13 @@ namespace GamePackman
             //Create board Matrix
             Tuple<int, int> PacmanStartCoordinates = gameBoard.InitializeBoardMatrix(Level);
 
+            //Create apples images on the game board
+            apples.CreateAppleImages(this);
+
             // Create Pacman
             pacman.CreatePacmanImage(this, PacmanStartCoordinates.Item1, PacmanStartCoordinates.Item2);
+
+            
         }
         protected override void OnKeyDown(KeyEventArgs e)
         {
@@ -44,6 +51,9 @@ namespace GamePackman
             }
         }
 
+        private void Game_Load(object sender, EventArgs e)
+        {
 
+        }
     }
 }

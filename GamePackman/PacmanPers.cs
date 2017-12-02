@@ -103,7 +103,7 @@ namespace GamePackman
                 }
                 currentDirection = direction;
                 UpdateImage();
-               // CheckPacmanPosition();
+                CheckPosition();
                 //Game.ghost.CheckForPacman();
             }
 
@@ -146,6 +146,16 @@ namespace GamePackman
             PacmanImage.Image = PacmanImages.Images[((currentDirection - 1) * 4) + ImageOn];
             ImageOn++;
             if (ImageOn > 3) { ImageOn = 0; }
+        }
+
+        public void CheckPosition()
+        {
+            // Check Pacmans position
+            switch (Game.gameBoard.Matrix[coordinateY, coordinateX])
+            {
+                case 1: Game.apples.EatApples(coordinateY, coordinateX); break;
+                case 2: Game.apples.EatSuperApples(coordinateY, coordinateX); break;
+            }
         }
     }
 }
