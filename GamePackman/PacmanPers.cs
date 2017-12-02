@@ -32,10 +32,21 @@ namespace GamePackman
             PacmanImages.Images.Add(Properties.Resources.Pacman_1_1);
             PacmanImages.Images.Add(Properties.Resources.Pacman_1_2);
             PacmanImages.Images.Add(Properties.Resources.Pacman_1_3);
+
             PacmanImages.Images.Add(Properties.Resources.Pacman_2_0);
             PacmanImages.Images.Add(Properties.Resources.Pacman_2_1);
             PacmanImages.Images.Add(Properties.Resources.Pacman_2_2);
             PacmanImages.Images.Add(Properties.Resources.Pacman_2_3);
+
+            PacmanImages.Images.Add(Properties.Resources.Pacman_3_0); 
+            PacmanImages.Images.Add(Properties.Resources.Pacman_3_1);
+            PacmanImages.Images.Add(Properties.Resources.Pacman_3_2);
+            PacmanImages.Images.Add(Properties.Resources.Pacman_3_3);
+
+            PacmanImages.Images.Add(Properties.Resources.Pacman_4_0);
+            PacmanImages.Images.Add(Properties.Resources.Pacman_4_1);
+            PacmanImages.Images.Add(Properties.Resources.Pacman_4_2);
+            PacmanImages.Images.Add(Properties.Resources.Pacman_4_3);
 
             PacmanImages.ImageSize = new Size(27, 28);
         }
@@ -65,7 +76,7 @@ namespace GamePackman
             nextDirection = 0;
             coordinateX = xStart;
             coordinateY = yStart;
-            PacmanImage.Location = new Point(xStart * 16 - 3, yStart * 16 + 43);
+            PacmanImage.Location = new Point(xStart * 16 - 3 , yStart * 16 + 43);
         }
 
         public void MovePacman(int direction)
@@ -91,7 +102,7 @@ namespace GamePackman
                     case 4: PacmanImage.Left -= 16; coordinateX--; break;
                 }
                 currentDirection = direction;
-                //UpdatePacmanImage();
+                UpdateImage();
                // CheckPacmanPosition();
                 //Game.ghost.CheckForPacman();
             }
@@ -125,9 +136,16 @@ namespace GamePackman
                 PacmanImage.Left = -5;
                 return true;
             }
-            if (Game.gameBoard.Matrix[y, x] < 4)
+            if (Game.gameBoard.Matrix[y, x] < 3)
             { return true; }
             else { return false; }
+        }
+
+        public void UpdateImage()
+        {
+            PacmanImage.Image = PacmanImages.Images[((currentDirection - 1) * 4) + ImageOn];
+            ImageOn++;
+            if (ImageOn > 3) { ImageOn = 0; }
         }
     }
 }

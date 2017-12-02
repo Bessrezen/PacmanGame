@@ -68,15 +68,8 @@ namespace GamePackman
                         { 10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10 } };
                     break;
             }
-            int StartX = 0;
-            int StartY = 0;
-            for(int i = 0; i < 30; i++)
-            {
-                for(int j = 0; j < 27; j++)
-                {
-                    if (Matrix[i, j] == 3) { StartX = i; StartY = j;}
-                }
-            }
+            int StartX = 1;
+            int StartY = 1;
             Tuple<int, int> StartLocation = new Tuple<int, int>(StartX, StartY);
             return StartLocation;
         }
