@@ -60,7 +60,9 @@ namespace GamePackman
         {
             FoodImage[i, j].Visible = false;
             Game.gameBoard.Matrix[i, j] = 0;
+            Game.ghost.ChangeGhostState();
             count--;
+
         }
     }
 }
