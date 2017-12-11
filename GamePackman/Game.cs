@@ -15,7 +15,10 @@ namespace GamePackman
         public static GameBoard gameBoard = new GameBoard();
         public static Apple apples = new Apple();
         public static PacmanPers pacman = new PacmanPers();
-        
+        public static Ghost ghost = new Ghost();
+
+
+
 
         public Game()
         {
@@ -36,8 +39,12 @@ namespace GamePackman
 
             // Create Pacman
             pacman.CreatePacmanImage(this, PacmanStartCoordinates.Item1, PacmanStartCoordinates.Item2);
+            // Create Ghost
+            ghost.CreateGhostImage(this);
 
-            
+
+
+
         }
         protected override void OnKeyDown(KeyEventArgs e)
         {

@@ -22,3 +22,15 @@ D:\Универ\Git\PacmanGame\GamePackman\obj\Debug\GamePackman.csproj.Generate
 D:\Универ\Git\PacmanGame\GamePackman\obj\Debug\GamePackman.csproj.CoreCompileInputs.cache
 D:\Универ\Git\PacmanGame\GamePackman\obj\Debug\GamePackman.exe
 D:\Универ\Git\PacmanGame\GamePackman\obj\Debug\GamePackman.pdb
+C:\Users\Vladislav Zayats\Desktop\PacmanGame-master\GamePackman\bin\Debug\GamePackman.exe.config
+C:\Users\Vladislav Zayats\Desktop\PacmanGame-master\GamePackman\bin\Debug\GamePackman.exe
+C:\Users\Vladislav Zayats\Desktop\PacmanGame-master\GamePackman\bin\Debug\GamePackman.pdb
+C:\Users\Vladislav Zayats\Desktop\PacmanGame-master\GamePackman\obj\Debug\GamePackman.csprojResolveAssemblyReference.cache
+C:\Users\Vladislav Zayats\Desktop\PacmanGame-master\GamePackman\obj\Debug\GamePackman.Pacman.resources
+C:\Users\Vladislav Zayats\Desktop\PacmanGame-master\GamePackman\obj\Debug\GamePackman.Form2.resources
+C:\Users\Vladislav Zayats\Desktop\PacmanGame-master\GamePackman\obj\Debug\GamePackman.Game.resources
+C:\Users\Vladislav Zayats\Desktop\PacmanGame-master\GamePackman\obj\Debug\GamePackman.Properties.Resources.resources
+C:\Users\Vladislav Zayats\Desktop\PacmanGame-master\GamePackman\obj\Debug\GamePackman.csproj.GenerateResource.Cache
+C:\Users\Vladislav Zayats\Desktop\PacmanGame-master\GamePackman\obj\Debug\GamePackman.csproj.CoreCompileInputs.cache
+C:\Users\Vladislav Zayats\Desktop\PacmanGame-master\GamePackman\obj\Debug\GamePackman.exe
+C:\Users\Vladislav Zayats\Desktop\PacmanGame-master\GamePackman\obj\Debug\GamePackman.pdb
